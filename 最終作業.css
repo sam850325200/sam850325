@@ -1,0 +1,264 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix{
+	clear: both;
+}
+.wrap{
+	margin: 0 auto;
+	width: 1001px;
+}
+.topbar{
+	height: 30px;
+	background-color: #d9d9d9d9;
+}
+.topbar ul{
+	float: right;
+	margin-top: 5px
+}
+.choose li {
+    float: left;
+	margin-right: 10px;
+}
+.choose li img{
+    float: left;
+    margin-right: 3px;
+}
+.choose li span{
+	float: left;
+}
+.facebook {
+	border-right: solid 1px gray;
+	padding-right: 8px;
+}
+.header{
+	background: #fff;
+	height: 48px;
+}
+.header img{
+	margin: 5px 5px 5px 5px;
+	float: left;
+}
+.header ul{
+	float: right;
+}
+.header li{
+	float: left;
+    font-size: 20px;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+.header li a{
+	text-decoration: none;
+    color: #00cc99;
+    display: block;
+    margin: 5px;
+}
+.header li a:hover{
+	color: pink;
+	font-size: 25px;
+}
+.background{
+	position: relative;
+}
+.background p{
+	position: absolute;
+	top: 135px;
+	color: white;
+	font-size: 30px;
+	margin-left: 20px;
+}
+.list{
+	margin-top: 20px;
+	margin: 20px auto;
+	padding-left: 26px;
+}
+.choose4 li{
+	float: left;
+	width: 285px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border: 0px gray;
+    box-shadow: 0px 5px 5px gray;
+    padding: 5px;
+    border-radius: 10px
+}
+.choose4 img{
+	  width: 200px;
+	  height: 160px;
+      margin-left: 50px;
+      margin-bottom: 5px;
+      text-align: center;
+}
+.choose4 h2{
+	text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    text-decoration: underline;
+}
+.choose4 h2:hover{
+    display: block;
+    font-size: 30px;
+    color: brown;
+    font-weight: bold;
+    text-decoration: none;
+}
+.choose4 a:hover{
+    display: block;
+    text-decoration: none;
+}
+
+.choose4 p{
+	color: green;
+	text-indent: 10px;
+	line-height: 1.5;
+}
+.choose4 p:hover{
+    color: orange;
+    font-size: 20px;
+}
+.footer{
+	background-color: yellow;
+}
+.footer ul{
+    float: right;
+    margin-top: 30px;
+    font-size: 20px;
+    padding-right: 20px;
+}
+.footer ul span{
+	color: red;
+}
+.difference{
+	float: left;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 30px
+}
+.difference h2{
+    color: brown;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 270px;
+    margin-bottom: 15px
+}
+.table th,.table td{
+	width: 1000px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	font-size: 20px;
+}
+.table th{
+	padding: 10px;
+	background: green;
+	color: white;
+	font-weight: bold;
+}
+.table td{
+	padding: 10px;
+}
+.color{
+	color: red;
+}
+.color:hover{
+	font-size: 30px;
+}
+.write{
+	width: 700px;
+	height: 500px;
+	float: left;
+	margin-left: 170px;
+	margin-bottom: 20px;
+	background: green;
+	border-radius: 20px;
+}
+.write p{
+	margin-bottom: 0px;
+	text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+label,input {
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+}
+
+textarea{
+	float: left;
+	padding: 5px;
+	margin-right:  90px;
+    margin-left: 55px;
+    height: 300px;
+    font-size: 20px;
+    color: gray;
+    border-radius: 15px	
+}
+label{
+   color: white;
+   font-size: 30px;
+}
+input{
+	margin-top: 5px;
+	width: 180px;
+	height: 25px;
+	border-radius: 10px
+}
+.button{
+	float: right;
+	margin-right: 110px;
+	display: block;
+	background-color: pink;
+	border-radius: 10px;
+	width: 50px;
+	height: 50px;
+	color: black;
+	text-align: center;
+	font-size: 18px;
+	cursor: pointer; 
+}
